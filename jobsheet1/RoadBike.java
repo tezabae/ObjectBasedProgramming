@@ -1,0 +1,22 @@
+package jobsheet1;
+
+public class RoadBike extends Bike {
+    private int tireWidth;
+
+    public void setTireWidth(int width) {
+        this.tireWidth = width;
+    }
+
+    public int getTireWidth() {
+        return tireWidth;
+    }
+
+    @Override
+    public void printBikeInfo() {
+        super.printBikeInfo();
+        System.out.println("Tire Width: " + tireWidth + " mm");
+        System.out.println("Bike Type: Road Bike");
+    }
+
+    
+}
